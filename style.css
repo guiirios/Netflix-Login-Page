@@ -1,0 +1,248 @@
+
+
+body {
+     background-image: url("img/netflix.png");
+     font-family: Arial, Helvetica, sans-serif;
+     height: 100vh;
+     padding: 0;
+     margin: 0;
+     width: 100%;
+     /*imagem nao vai repetir*/
+     background-repeat: no-repeat;
+     /*Faz com que a imagem de fundo cubra toda a área disponível do elemento, mantendo suas proporções.*/
+     background-size: cover;
+     position: relative;
+    
+}
+
+
+
+/*posicionando a imagem um pouco mais pro lado*/
+.topo {
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+
+/*vou centralizar a caixa de formulario e deixar os conteudos dentro dele centralizados*/
+.formulario {
+    display: flex;
+    justify-content: center;
+
+}
+
+a > img {
+    width: 150px;
+
+}
+/*mexendo tamanho da logo*/
+.imagem > img {
+    width: 150px;
+}
+
+/*caixa que fica no meio, onde há login*/
+.caixaformulario {
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 8px;
+    height: 550px;
+    width: 500px;
+    color: white;
+    margin: 10px;
+    
+}
+
+.caixaformulario > h1 {
+   margin-left: 50px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+/*botao de login para senha e email*/
+.input input{
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width:  70%;
+    background-color: #333333;
+    padding: 10px;
+    color: #fff;
+
+}
+
+/*Adicionando uma pseudo classe para dar caracteristicas especiais ao imput de login*/
+.input input:hover {
+    background-color: rgb(62, 58, 58);
+}
+
+/*CSS da parte de clicar para acessar o site*/
+/*vou tornar o botao flex para mexer nele e jogar ele na direita*/
+.botaoentrar {
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    margin-top: 10px;
+} 
+
+/*vou mexer nas caracteristicas do botao*/
+.botaoentrar > button {
+    
+    border: none;
+    border-radius: 4px;
+    height: 60px;
+    width:  74%;
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botaoentrar > button:hover {
+    background-color: rgb(244, 113, 113);
+}
+
+/*parte destinada a ajudar o usuario e do lembrar de mim*/
+.ajuda {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 67px;
+    margin-right: 67px;
+
+}
+
+.ajuda span {
+    margin-right: 5px;
+}
+
+#checkbox1 {
+    cursor: pointer;
+}
+
+
+
+/*Posicionando o facebook icon e o nome*/
+.facebook {
+    margin-left: 67px;
+    margin-right: 67px;
+    margin-bottom: 9px;
+    color: #9b9b9b;
+    font-size: 15px;
+    display: block;
+}
+
+#linkface{
+   color:#9b9b9b;
+   text-decoration: none;
+}
+/*quando passar o mouse no link aparece um sublinhado*/
+#linkface:hover {
+    text-decoration: underline;
+}
+
+/*link assinar o netflix*/
+#linkassinar{
+    color: white; 
+    text-decoration: none; 
+    margin-left: 5px;
+ }
+
+ /*quando passar o mouse no link aparece um sublinhado*/
+#linkassinar:hover{
+    text-decoration: underline;
+
+}
+
+#precisadeajudalink {
+    text-decoration: none; color:#9b9b9b;
+}
+
+#precisadeajudalink:hover{
+    text-decoration: underline;
+}
+
+
+/*texto novo usuario*/
+.novousuario {
+    margin-left: 67px;
+    margin-right: 67px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+.googletexto {
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+#saibamais {
+    text-decoration: none; color: blue;
+}
+#saibamais:hover {
+    text-decoration: underline;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*vou colocar na area de suporte para cada um ficar de um lado, por isso se usa o space-between*/
+.areasuporte {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+/*O link precisa de ajuda, tirarei o sublinado que fica logo abaixo*/
+.help > a {
+    text-decoration: none;
+    color: rgb(139, 132, 132);
+    font-size: 15px;
+}
+
+.remember > #botaocheck {
+    border-radius: 10px;
+}
+
+.loginabaixo {
+    margin-left: 55px;
+}
+
+.facebooklogin > img {
+    height: 20px;
+}
+
+.facebooklogin > a {
+    text-decoration: none;
+    color: rgb(139, 132, 132);
+    font-size: 15px;
+}
